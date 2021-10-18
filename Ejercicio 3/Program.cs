@@ -6,7 +6,7 @@ namespace Ejercicio_3
     {
         static void Main(string[] args)
         {
-            double[,] control = new double[3,4];
+            int[,] control = new int[3,4];
 
             Console.WriteLine("Ingrese los valores segun corresponde a la semana y el tipo de asistencia correspondiente");
             Console.WriteLine("Tipo de asistencia 1: SOLO VIRTUAL");
@@ -25,6 +25,7 @@ namespace Ejercicio_3
                 }
             }
 
+            //Visualizacion de matriz con datos ingresados
             Console.WriteLine("\n********************** TABLA DE CONTROL **************************\n");
             Console.WriteLine("\tSEMANA 1\tSEMANA 2\tSEMANA 3\tSEMANA 4");
             for (int tipo_clase = 0; tipo_clase < 3; tipo_clase++)
@@ -36,6 +37,8 @@ namespace Ejercicio_3
                 Console.Write("\n");
             }
 
+            //resultados
+            int total_virtual, total_presencial, total_hibridos;
 
 
         }
