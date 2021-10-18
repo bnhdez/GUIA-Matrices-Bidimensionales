@@ -43,9 +43,9 @@ namespace Ejercicio_3
             total_presencial = control[1, 0] + control[1, 1] + control[1, 2] + control[1, 3];
             total_hibridos = control[2, 0] + control[2, 1] + control[2, 2] + control[2, 3];
             //imprimimos
-            Console.WriteLine("\nNumero de estudiantes que recibieron las clases unicamente de manera virtual es de: " + total_virtual);
-            Console.WriteLine("Numero de estudiantes que recibieron las clases unicamente de manera presencial es de: " + total_presencial);
-            Console.WriteLine("Numero de estudiantes que recibieron las clases de manera hibrida es de: " + total_hibridos);
+            Console.WriteLine("\nAsistencias de manera virtual: " + total_virtual);
+            Console.WriteLine("Asistencias de manera presencial: " + total_presencial);
+            Console.WriteLine("Asistencias de manera hibrida: " + total_hibridos);
 
         }
     }
