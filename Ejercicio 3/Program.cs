@@ -25,13 +25,15 @@ namespace Ejercicio_3
                 }
             }
 
+            Console.WriteLine("\n********************** TABLA DE CONTROL **************************\n");
+            Console.WriteLine("\tSEMANA 1\tSEMANA 2\tSEMANA 3\tSEMANA 4");
             for (int tipo_clase = 0; tipo_clase < 3; tipo_clase++)
             {
-                Console.Write("\n");
                 for (int semanas = 0; semanas < 4; semanas++)
                 {
                     Console.Write("\t" + control[tipo_clase, semanas] + "\t");
                 }
+                Console.Write("\n");
             }
 
 
