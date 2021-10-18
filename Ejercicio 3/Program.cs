@@ -7,12 +7,16 @@ namespace Ejercicio_3
         static void Main(string[] args)
         {
             double[,] control = new double[3,4];
+
+            Console.WriteLine("Ingrese los valores segun corresponde a la semana y el tipo de asistencia correspondiente");
             //cargar y visualizar una matriz
             for (int tipo_clase = 0; tipo_clase < 3; tipo_clase++) //for para filas
             {
+                int asistencia = tipo_clase + 1;
                 for (int semanas = 0; semanas < 4; semanas++) // for interno para columnas
                 {
-                    Console.Write("Ingrese el valor de la posición [" + tipo_clase + "," + semanas + "]: ");
+                    int num_semana = semanas + 1;
+                    Console.Write("Ingrese el valor de la posicion [" + asistencia + "," + num_semana + "]: ");
                     control[tipo_clase, semanas] = int.Parse(Console.ReadLine());
 
                 }
