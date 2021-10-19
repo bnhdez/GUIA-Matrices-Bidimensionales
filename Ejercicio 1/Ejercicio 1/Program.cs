@@ -9,10 +9,10 @@ namespace array_prueba
         {
             Console.WriteLine("array 2d");
 
-            Console.WriteLine("ingrese la cantidad de columnas (valor x)");
+            Console.WriteLine("ingrese la cantidad de filas (valor x)");
             int a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("ingrese la cantidad de filas (valor y)");
+            Console.WriteLine("ingrese la cantidad de columnas (valor y)");
             int b = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("cantidad de columnas: " + a + "\ncantidad de filas: " + b);
