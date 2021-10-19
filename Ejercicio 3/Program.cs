@@ -24,7 +24,7 @@ namespace Ejercicio_3
             }
 
             //Visualizacion de matriz con datos ingresados
-            Console.WriteLine("\n********************** TABLA DE CONTROL **************************\n");
+            Console.WriteLine("\n********************** TABLA DE CONTROL *****************************\n");
             Console.WriteLine("\tSEMANA 1\tSEMANA 2\tSEMANA 3\tSEMANA 4");
             for (int estudiante = 0; estudiante < 7; estudiante++)
             {
@@ -129,7 +129,9 @@ namespace Ejercicio_3
                 ctrl_hibrid = ctrl_hibrid + 1;
             }
 
-            Console.WriteLine("Numero de estudiantes que recibieron las clases unicamente de manera virtual: " + ctrl_vrtl);
+            //imprimimos resultados de control
+            Console.WriteLine("\n**********************************************************************\n");
+            Console.WriteLine("\nNumero de estudiantes que recibieron las clases unicamente de manera virtual: " + ctrl_vrtl);
             Console.WriteLine("Numero de estudiantes que recibieron las clases unicamente de manera presencial: " + ctrl_presencial);
             Console.WriteLine("Numero de estudiantes que recibieron las clases unicamente de manera hibrida: " + ctrl_hibrid);
         }
