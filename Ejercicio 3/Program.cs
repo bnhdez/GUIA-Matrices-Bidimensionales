@@ -17,7 +17,7 @@ namespace Ejercicio_3
                 for (int semanas = 0; semanas < 4; semanas++) // for interno para columnas
                 {
                     int num_semana = semanas + 1;
-                    Console.Write("Ingrese el numero de estudiantes correspodientes [Estudiante " + num_estudiante + ", Semana " + num_semana + "]: ");
+                    Console.Write("[Estudiante " + num_estudiante + ", Semana " + num_semana + "]: ");
                     control[estudiante, semanas] = Console.ReadLine();
 
                 }
