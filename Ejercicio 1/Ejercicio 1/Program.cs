@@ -7,10 +7,7 @@ namespace array_prueba
     {
         static void Main(string[] args)
         {
-
-
             Console.WriteLine("array 2d");
-
 
             Console.WriteLine("ingrese la cantidad de columnas (valor x)");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -24,7 +21,6 @@ namespace array_prueba
 
             int[,] matriz2d = new int[a, b];
 
-
             //llenar cada elemento array
 
             for (int x = 0; x < a; x++)
@@ -37,12 +33,7 @@ namespace array_prueba
                 }
             }
 
-
-
-
-
             Console.WriteLine("\nmostrar cada elemento del array ");
-
 
             //mostrar cada elemento array
 
@@ -56,7 +47,6 @@ namespace array_prueba
                 }
                 Console.WriteLine(" ");
             }
-
 
             Console.WriteLine("\nmostrar negativos ");
 
@@ -82,8 +72,6 @@ namespace array_prueba
 
             Console.WriteLine("\nmostrar total negativos: " + nx);
 
-
-
             Console.WriteLine("\nmostrar positivos ");
 
             //mostrar positivos
@@ -104,15 +92,11 @@ namespace array_prueba
                     }
 
                 }
-
-
-
             }
 
             Console.WriteLine("\nel total de positivos es: " + sx);
 
             Console.WriteLine("\nmostrar ceros ");
-
 
             //mostrar ceros
             //contador ceros gx
@@ -133,7 +117,6 @@ namespace array_prueba
                 }
                 Console.WriteLine(" ");
             }
-
             Console.WriteLine("\ntotal ceros" + gx);
         }
     }
