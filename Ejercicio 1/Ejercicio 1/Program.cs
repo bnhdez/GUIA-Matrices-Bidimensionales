@@ -15,7 +15,7 @@ namespace array_prueba
             Console.WriteLine("ingrese la cantidad de columnas (valor y)");
             int b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("cantidad de columnas: " + a + "\ncantidad de filas: " + b);
+            Console.WriteLine("cantidad de filas: " + a + "\ncantidad de columnas: " + b);
 
             //iniciar array
 
